@@ -55,7 +55,7 @@ header {
 
     width: 100%;
     position: fixed;
-    height: 160px;
+    height: 220px;
     /* Sobrepor todos os conteudos */
     z-index: 10;
 
@@ -75,6 +75,8 @@ header {
     grid-template-columns: 25% 1fr 25%;
     align-items: center;
     box-shadow: 1px 0px 7px rgb(175, 174, 174);
+    
+    
 
 }
 
@@ -83,8 +85,19 @@ header {
 }
 
 #logo {
-
-    margin-left: 10%;
+    width: 150px;
+    height: 130px;
+    
+    
+    
+    
+   
+   
+   
+}
+#logo img{
+    height: 150px;
+    
 }
 
 #spanLogo {
@@ -103,8 +116,7 @@ header {
 
 #logo:hover {
     scale: 1.2;
-    margin-left: 15%;
-
+    
 }
 
 #barra-pesquisa {
@@ -180,6 +192,9 @@ header {
 
 #marinheiro_profile {
     height: 30px;
+}
+#marinheiro_profile:hover{
+    scale: 1.2;
 }
 
 #menu {
@@ -519,7 +534,7 @@ iframe {
     top: 230px; */
     width: 100%;
     height: 60%;
-    
+    margin-top: 5%;
    
 
 }
@@ -544,7 +559,7 @@ iframe {
 
 
 .slide {
-    width: 80%;
+    width: 90%;
     height: 100%;
     background-color: #10afc400 ;
 }
@@ -566,7 +581,7 @@ iframe {
     height: 40%;
     margin-left: 5%;
     margin-right: 5%;
-    margin-top:5%;
+    margin-top:15%;
  
     background-color: rgba(0, 255, 255, 0);
     font-family: 'modelo-airbnb';
@@ -642,7 +657,7 @@ iframe {
 #div_vsf{
     display: flex;
     justify-content: center;
-    margin-top: 5%;
+    margin-top: 23%;
     height: 20%;
     
 
@@ -771,14 +786,88 @@ font-weight: bolder;
     width: 100%;
     padding-left: 5%;
 } */
+#conteudomeio {
+    
+
+    padding: 20px;
+    margin-bottom: 5%;
+    padding: 20px;
+    height: 30vh;
+    margin-top: 4%;
+   
+    
+    
+}
+#descricao {
+  
+    margin-left: 3%;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); /* 3 colunas com larguras iguais */
+    gap: 20px; /* Espaçamento entre as colunas e linhas */
+    padding: 20px; /* Padding interno */
+    justify-content: center; /* Centraliza o conteúdo horizontalmente */
+}
+
+#container-vsf img{
+    
+    width:100%;
+    height: 300px;
+    border-radius: 10px;
+}
+#container-vsf img:hover{
+   scale:1.2;
+}
+.conteudoMeio{
+    
+    display: flex;
+    position: absolute  ;
+    flex-direction: column;
+    border-radius: 12px;
+     width:25%;
+     height: 39%;
+     background-color: rgb(255, 255, 255);
+     box-shadow: 0 0 10px 2px rgb(180, 180, 180);
+     font-family: 'modelo-airbnb';
+     margin: 0;
+     padding: 0;
+     justify-content: center;
+     align-items: center;
+     
+     
+     
+ }
+
+.tituloConteudoMeio {
+    font-size: 24px; 
+    color: #333; /
+   
+  }
+  
+ 
+  .icone {
+    color: #007bff; 
+    font-size: 36px; 
+    margin: 10px 0; 
+    margin-bottom: 30px;
+  }
+  
+ 
+  .descricaoConteudoMeio {
+    font-size: 16px; 
+    color: #666;
+    text-align: center; 
+    margin-bottom: 15px;
+    
+  }
 
 
 #textoo{
     width: 100%;
     display: flex;
     justify-content: center;
-    height: 15%;
+    height: 20%;
     font-family: 'modelo-airbnb';
+    
 
 
   
@@ -791,7 +880,7 @@ padding-right: 2%;
 
 text-align: center;
 display: flex;
-margin-top: 4%; 
+margin-top: 5%; 
 text-align: justify;
 text-align: center;
 font-family: "modelo-airbnb";
